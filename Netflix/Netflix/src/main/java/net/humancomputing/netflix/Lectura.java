@@ -13,8 +13,6 @@ public class Lectura {
         int fechaEstreno, duracion, nTemporadas, nCapitulos;
         boolean tendencia;
         Contenido contenido;
-        Contenido [] arrayContenido;
-        //llamamos a la calse netflix para ir
         Netflix n= new Netflix ();
         String line;
         try (BufferedReader br = new BufferedReader(new FileReader(fichero))) {
