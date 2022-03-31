@@ -28,14 +28,16 @@ public class Netflix
     //creamos el array contenido 
     private Contenido [] contenidos;   
     //contructor del netflix
+    public Netflix(){}
+    
     public Netflix(Contenido [] contenidos){ 
         this.contenidos=contenidos;
-    }
+    } 
     /*creamos un metodo que se llamara addcontenido para asi provocando a que todo el contenido que estemos guardando en contenido
       se nos vaya guardando en nuestro array 
     */
-    public void addContenido (Contenido contenido){
-        this.contenidos = Contenido (contenido);
+    public void Contenido (Contenido contenido){
+        contenidos = contenido;
     }
     /**
      * Mostrar el contenido  de la plataforma.
@@ -81,6 +83,10 @@ public class Netflix
     public double costeCampana(int costeCampanna){
         return costeCampanna;
     }
+
+    Contenido[] Contenido(Contenido contenido) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
     /**
      * Calcular la subvencion recibida por la C. de Madrid 
@@ -98,7 +104,7 @@ public class Netflix
 */
     //relacion de dependecia con ayuntamiento 
     //gracias a la relacion de dependencia, podemos calcular la subvencion para cada peliculap serie
-    public void CalcularSubvencion (Ayuntamiento ayunt, double subvencionFija){
+    /*public void CalcularSubvencion (Ayuntamiento ayunt, double subvencionFija){
         double subvencionTotal;
         while(Pelicula){
             if (tendencia==True){
@@ -115,15 +121,8 @@ public class Netflix
             else {
                 subvencionTotal= subvencionFija;
             }//End else
-        }//End while  
+        }//End while 
+    */
     }
 
-    private Contenido[] Contenido(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    private Contenido[] Contenido(Contenido contenido) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
    
-}
