@@ -7,10 +7,10 @@ package net.humancomputing.netflix;
  * @version 0.1
  * @author Paulino Esteban Bermúdez Rodríguez | humancomputing.net
  */
-public class Peliculas {
+public class Pelicula {
     private String productora, paisOrigen;
     
-    public Peliculas (String titulo, int fechaEstreno,int duracion, String descripcion, boolean tendencia, String productora, String paisOrigen){
+    public Pelicula (String titulo, int fechaEstreno,int duracion, String descripcion, boolean tendencia, String productora, String paisOrigen){
         this.productora=productora;
         this.paisOrigen=paisOrigen;
     }

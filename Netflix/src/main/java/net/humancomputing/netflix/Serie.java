@@ -7,10 +7,10 @@ package net.humancomputing.netflix;
  * @version 0.1
  * @author Paulino Esteban Berm�dez Rodr�guez | humancomputing.net
  */
-public class Series {
+public class Serie {
     private int nTemporadas, nCapitulos;
     
-    public Series(String titulo, int fechaEstreno, long duracion, String descripcion, boolean tendencia, int nTemporadas, int nCapitulos){
+    public Serie(String titulo, int fechaEstreno, long duracion, String descripcion, boolean tendencia, int nTemporadas, int nCapitulos){
         this.nTemporadas = nTemporadas;
         this.nCapitulos = nCapitulos;
     }
