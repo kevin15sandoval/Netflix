@@ -14,15 +14,8 @@ public class Netflix
 {
     private String[] contenido;
     
-    public Netflix(String[] contenido){     
-    }
-    
-    /**
-     * @override
-     * @param contenido 
-     */
     public Netflix(String[] contenido){
-        Contenido contenido = new Contenido(); 
+        Contenido contenido = new Contenido();        
     }
     
     /**
